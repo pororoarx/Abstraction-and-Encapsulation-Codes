@@ -6,6 +6,8 @@ from color import Color
 from on import On
 
 # set the properties for fan 1
+fan_1 = Fan(Fan.FAST, 10, "yellow", True)
+
 # create instances of the classes for fan 1
 # display fan 1
 
