@@ -1,4 +1,5 @@
 # import class from car
+from car import Car
 
 # define a function
     # create an instance of a class and set the car's model and make
