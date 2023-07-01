@@ -19,6 +19,8 @@ def show():
     # print brakes text
     print("\nBrakes...")
     # use a for loop to call the brake method five times
+    for i in range(5):
+        the_car.brake()
         # display the current speed
 
 
