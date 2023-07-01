@@ -15,11 +15,11 @@ color_1 = Color(fan_1)
 on_1 = On(fan_1)
 
 # display fan 1
-print("Fan 1")
-print("Speed:", speed_1.get_speed())
-print("Radius:", radius_1.get_radius())
-print("Color:", color_1.get_color())
-print("On properties (True- On, False- Off):", on_1.get_on())
+print("\nFan 1 ☢")
+print("\033[31mSpeed: \033[0m", speed_1.get_speed())
+print("\033[93mRadius: \033[0m", radius_1.get_radius())
+print("\033[92mColor: \033[0m", color_1.get_color())
+print("\033[34mOn properties (True- On, False- Off): \033[0m", on_1.get_on())
 
 
 # set the properties for fan 2
@@ -32,8 +32,8 @@ color_2 = Color(fan_2)
 on_2 = On(fan_2)
 
 # display fan 2
-print("\nFan 2")
-print("Speed:", speed_2.get_speed())
-print("Radius:", radius_2.get_radius())
-print("Color:", color_2.get_color())
-print("On properties (True- On, False- Off):", on_2.get_on())
+print("\nFan 2 ☢")
+print("\033[35mSpeed: \033[0m", speed_2.get_speed())
+print("\033[31mRadius: \033[0m", radius_2.get_radius())
+print("\033[93mColor: \033[0m", color_2.get_color())
+print("\033[92mOn properties (True- On, False- Off): \033[0m", on_2.get_on())
