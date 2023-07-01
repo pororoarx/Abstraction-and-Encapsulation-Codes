@@ -7,5 +7,6 @@ animal_type = input("Enter the type of your pet: ")
 age = input("Enter the pet's age: ")
 
 # create instance of the class (Pet)
+pet = Pet(name, animal_type, age)
 
 # print inputs of the user
