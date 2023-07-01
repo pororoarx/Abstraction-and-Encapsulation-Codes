@@ -7,22 +7,22 @@ def show():
     the_car = Car("2023", "Ferrari")
 
     # print accelerates text
-    print("\nAccelerates...")
+    print("\n\033[32mAccelerates...🚗\033[0m")
 
     # use a for loop to call the accelerate method five times
     for i in range(5):
         the_car.accelerate()
         # display the current speed
-        print("Current speed:", the_car.get_speed())
+        print("\033[94mCurrent speed:\033[0m", the_car.get_speed())
 
 
     # print brakes text
-    print("\nBrakes...")
+    print("\n\033[31mBrakes...🚗\033[0m")
     # use a for loop to call the brake method five times
     for i in range(5):
         the_car.brake()
         # display the current speed
-        print("Current speed:", the_car.get_speed())
+        print("\033[93mCurrent speed:\033[0m", the_car.get_speed())
 
 
 # call the function
