@@ -10,3 +10,4 @@ age = input("Enter the pet's age: ")
 pet = Pet(name, animal_type, age)
 
 # print inputs of the user
+print("\nPet's name:", pet.get_name())
