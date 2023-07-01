@@ -15,7 +15,7 @@ color_1 = Color(fan_1)
 on_1 = On(fan_1)
 
 # display fan 1
-print("Fan 1)")
+print("Fan 1")
 print("Speed:", speed_1.get_speed())
 print("Radius:", radius_1.get_radius())
 print("Color:", color_1.get_color())
@@ -32,3 +32,8 @@ color_2 = Color(fan_2)
 on_2 = On(fan_2)
 
 # display fan 2
+print("\nFan 2")
+print("Speed:", speed_2.get_speed())
+print("Radius:", radius_2.get_radius())
+print("Color:", color_2.get_color())
+print("On properties (True- Turn it On, False- Turn it Off):", on_2.get_on())
