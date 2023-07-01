@@ -1,5 +1,9 @@
 # import Fan class and all the properties
-
+from fan import Fan
+from speed import Speed
+from radius import Radius
+from color import Color
+from on import On
 
 # set the properties for fan 1
 # create instances of the classes for fan 1
