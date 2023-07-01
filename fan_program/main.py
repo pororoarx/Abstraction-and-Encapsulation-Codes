@@ -12,6 +12,7 @@ fan_1 = Fan(Fan.FAST, 10, "yellow", True)
 speed_1 = Speed(fan_1)
 
 # display fan 1
+print("Speed:", speed_1.get_speed())
 
 
 # set the properties for fan 2
