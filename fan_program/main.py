@@ -19,7 +19,7 @@ print("Fan 1")
 print("Speed:", speed_1.get_speed())
 print("Radius:", radius_1.get_radius())
 print("Color:", color_1.get_color())
-print("On properties (True- Turn it On, False- Turn it Off):", on_1.get_on())
+print("On properties (True- On, False- Off):", on_1.get_on())
 
 
 # set the properties for fan 2
@@ -36,4 +36,4 @@ print("\nFan 2")
 print("Speed:", speed_2.get_speed())
 print("Radius:", radius_2.get_radius())
 print("Color:", color_2.get_color())
-print("On properties (True- Turn it On, False- Turn it Off):", on_2.get_on())
+print("On properties (True- On, False- Off):", on_2.get_on())
