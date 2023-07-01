@@ -2,7 +2,10 @@
 from car import Car
 
 # define a function
+def show():
     # create an instance of a class and set the car's model and make
+    the_car = Car("2023", "Ferrari")
+
 
     # print accelerates text
 
