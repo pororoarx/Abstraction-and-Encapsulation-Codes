@@ -10,7 +10,10 @@ def show():
     print("\nAccelerates...")
 
     # use a for loop to call the accelerate method five times
+    for i in range(5):
+        the_car.accelerate()
         # display the current speed
+        print("Current speed:", the_car.get_speed())
 
 
     # print brakes text
