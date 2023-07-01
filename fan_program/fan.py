@@ -7,7 +7,7 @@ class Fan:
 
     # initialize the properties of the fan
     def __init__(self, speed = SLOW, radius = 5, color = "blue", on = False):
-        self._speed = speed
-        self._radius = radius
-        self._color =  color
-        self._on = on
+        self.__speed = speed
+        self.__radius = radius
+        self.__color =  color
+        self.__on = on
