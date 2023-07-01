@@ -1,4 +1,4 @@
-# create class for on properties
+# create class for color
         
         # private member
 
