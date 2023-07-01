@@ -5,5 +5,9 @@ class Color:
         self.__fan = fan
 
     # getter method
-
+    def get_color(self):
+        return self.__fan._color
+    
     # setter method
+    def set_color(self, color):
+        self.__fan._color = color
