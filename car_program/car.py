@@ -9,5 +9,9 @@ class Car:
     # accelerate method
     def accelerate(self):
         self.__speed += 5
+
     # brake method
+    def brake(self):
+        self.__speed -= 5
+        
     # get speed method
