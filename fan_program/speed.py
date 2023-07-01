@@ -5,5 +5,9 @@ class Speed:
         self.__fan = fan
 
     # getter method
+    def get_speed(self):
+        return self.__fan._speed
 
     # setter method
+    def set_speed(self, speed):
+        self.__fan._speed = speed
