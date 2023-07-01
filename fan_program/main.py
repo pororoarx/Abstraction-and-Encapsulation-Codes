@@ -26,4 +26,9 @@ print("On properties (True- Turn it On, False- Turn it Off):", on_1.get_on())
 fan_2 = Fan(Fan.FAST, 5, "blue", False)
 
 # create instances of the classes for fan 2
+speed_2 = Speed(fan_2)
+radius_2 = Radius(fan_2)
+color_2 = Color(fan_2)
+on_2 = On(fan_2)
+
 # display fan 2
