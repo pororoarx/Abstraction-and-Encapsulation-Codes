@@ -5,5 +5,9 @@ class On:
         self.__fan = fan
 
     # getter method
+    def get_on(self):
+        return self.__fan._on
 
     # setter method
+    def set_on(self, on):
+        self.__fan._on = on
