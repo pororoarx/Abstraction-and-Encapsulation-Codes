@@ -5,5 +5,9 @@ class Radius:
         self.__fan = fan
 
     # getter method
+    def get_radius(self):
+        return self.__fan._radius
 
     # setter method
+    def set_radius(self, radius):
+        self.__fan._radius = radius
