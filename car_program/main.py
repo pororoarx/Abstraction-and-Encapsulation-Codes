@@ -6,8 +6,8 @@ def show():
     # create an instance of a class and set the car's model and make
     the_car = Car("2023", "Ferrari")
 
-
     # print accelerates text
+    print("\nAccelerates...")
 
     # use a for loop to call the accelerate method five times
         # display the current speed
@@ -20,3 +20,4 @@ def show():
 
 
 # call the function
+show()
