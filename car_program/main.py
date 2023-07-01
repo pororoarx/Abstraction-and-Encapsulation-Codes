@@ -22,6 +22,7 @@ def show():
     for i in range(5):
         the_car.brake()
         # display the current speed
+        print("Current speed:", the_car.get_speed())
 
 
 # call the function
