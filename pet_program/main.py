@@ -11,3 +11,5 @@ pet = Pet(name, animal_type, age)
 
 # print inputs of the user
 print("\nPet's name:", pet.get_name())
+print("Pet's animal type:", pet.get_animal_type())
+print("Pet's age", pet.get_age())
