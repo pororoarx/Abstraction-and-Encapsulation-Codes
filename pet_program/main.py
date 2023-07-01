@@ -1,4 +1,5 @@
 # import Pet class
+from pet import Pet
 
 # ask user for input: name, animal_type, age
 
