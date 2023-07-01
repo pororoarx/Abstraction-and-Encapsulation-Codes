@@ -9,6 +9,8 @@ from on import On
 fan_1 = Fan(Fan.FAST, 10, "yellow", True)
 
 # create instances of the classes for fan 1
+speed_1 = Speed(fan_1)
+
 # display fan 1
 
 
